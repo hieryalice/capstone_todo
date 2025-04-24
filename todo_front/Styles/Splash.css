@@ -1,0 +1,29 @@
+.splash-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.speech-bubble {
+  background-color: #D9D9D9;
+  color: #000000;
+  font-size: 28px;
+  padding: 20px 30px;
+  border-radius: 15px;
+  position: relative;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.speech-bubble::before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  bottom: -20px;
+  width: 0;
+  height: 0;
+  border-top: 20px solid #D9D9D9;
+  border-left: 20px solid transparent;
+}
