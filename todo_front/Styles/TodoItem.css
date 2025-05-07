@@ -1,0 +1,42 @@
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  padding: 6px 8px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  margin-bottom: 6px;
+  background-color: #f9f9fb;
+}
+
+.todo-item.completed {
+  text-decoration: line-through;
+  color: #999;
+  background-color: #f0f0f0;
+}
+
+.todo-item input[type='checkbox'] {
+  cursor: pointer;
+}
+
+.todo-text {
+  flex: 1;
+  cursor: pointer;
+}
+
+.edit-input {
+  flex: 1;
+  padding: 6px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.edit-btn,
+.delete-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+}

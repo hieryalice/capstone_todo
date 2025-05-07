@@ -1,0 +1,36 @@
+.todo-column {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  padding: 16px;
+  min-height: 750px; /* ✅ 여기 height 추가 */
+  height: 750px;     /* ✅ 고정 높이 추가 */
+}
+
+
+.todo-scroll {
+  flex-grow: 1;
+  overflow-y: auto;
+  margin-bottom: 20px;
+  max-height: 350px; /* 🔥 할 일 스크롤 영역도 적당히 고정 */
+}
+
+.complete-scroll {
+  flex-grow: 1;
+  overflow-y: auto;
+  margin-bottom: 20px;
+  max-height: 200px; /* 🔥 완료 목록 스크롤 영역도 고정 */
+}
+
+.memo-save-button {
+  width: 100%;
+  padding: 8px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}

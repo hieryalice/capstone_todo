@@ -1,0 +1,92 @@
+.find-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.find-box {
+  background-color: #d9d9d9;
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 0 8px rgba(255, 253, 253, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+}
+
+/* 제목 */
+.find-title, h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* 입력창 */
+.find-input {
+  width: 100%;
+  padding: 10px;
+  background: white;
+  border: 1px solid #888;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.find-input.small {
+  width: 180px;
+}
+
+/* 버튼 스타일 공통 */
+.find-button {
+  background-color: white;
+  border: 1px solid #888;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 16px;
+  cursor: pointer;
+  margin: 8px 0;
+  width: fit-content;
+  color: #000000; /* 기본 글씨 색상 */
+}
+
+.find-button.gray {
+  background-color: #a0a0a0;
+  color: white;
+}
+
+.find-button.small {
+  padding: 8px 14px;
+  font-size: 12px;
+  border-radius: 10px;
+}
+
+/* 코드 인증 버튼 줄 */
+.find-id-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* 로그인 버튼 (검정 배경) */
+.login-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* 결과 텍스트 */
+.result-text {
+  font-size: 14px;
+  margin: 14px 0;
+  text-align: center;
+}
